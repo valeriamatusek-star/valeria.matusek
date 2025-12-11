@@ -11732,3 +11732,10 @@ html {
     left: -2vw;
   }
 }
+.resume-slika {
+  width: 120px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
