@@ -11733,9 +11733,13 @@ html {
   }
 }
 .resume-slika {
-  width: 120px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999;
+    width: 120px !important;     /* veličina slike */
+    height: auto !important;     /* proporcionalna visina */
+    position: fixed !important;  /* da stoji u uglu ekrana */
+    bottom: 20px !important;     /* udaljenost od dna */
+    right: 20px !important;      /* udaljenost od desne strane */
+    z-index: 99999 !important;   /* da bude iznad svega */
+    display: block !important;   
+    margin: 0 !important;
+    padding: 0 !important;
 }
