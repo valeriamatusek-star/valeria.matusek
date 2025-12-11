@@ -11732,14 +11732,18 @@ html {
     left: -2vw;
   }
 }
+#fixed-wrapper {
+    position: fixed;    /* fiksirano u ekranu */
+    bottom: 20px;       /* udaljenost od dna */
+    right: 20px;        /* udaljenost od desne ivice */
+    z-index: 99999;     /* iznad svega */
+}
+
+/* Slika unutar wrappera */
 .resume-slika {
-    width: 120px !important;     /* veličina slike */
-    height: auto !important;     /* proporcionalna visina */
-    position: fixed !important;  /* da stoji u uglu ekrana */
-    bottom: 20px !important;     /* udaljenost od dna */
-    right: 20px !important;      /* udaljenost od desne strane */
-    z-index: 99999 !important;   /* da bude iznad svega */
-    display: block !important;   
-    margin: 0 !important;
-    padding: 0 !important;
+    width: 120px;       /* širina slike */
+    height: auto;       /* proporcionalna visina */
+    display: block;
+    margin: 0;
+    padding: 0;
 }
