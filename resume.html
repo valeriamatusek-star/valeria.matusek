@@ -201,5 +201,26 @@
         <div id="fixed-wrapper">
     <img src="css/kapa.jpg" alt="kapa" class="resume-slika">
 </div>
+<div class="okvir">
+    <img src="css/etsda.slika.jpg" alt="...">
+</div>
+
+<style>
+.okvir {
+    width: 250px;             /* širina okvira */
+    height: 250px;            /* visina okvira */
+    border: 2px solid #000;   /* okvir */
+    display: flex;            /* da centriramo sliku */
+    justify-content: center;  /* horizontalno centriranje */
+    align-items: center;      /* vertikalno centriranje */
+    padding: 10px;            /* razmak između slike i okvira */
+    margin: 20px auto;        /* centriranje okvira na stranici */
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2); /* opcionalna sjena */
+}
+.okvir img {
+    max-width: 100%;          /* slika se prilagođava okvir */
+    max-height: 100%;
+}
+</style>
     </body>
 </html>
