@@ -11747,3 +11747,8 @@ html {
     margin: 0;
     padding: 0;
 }
+.slike-red {
+    display: flex;
+    justify-content: space-between; /* razmak između slika */
+    align-items: center; /* vertikalno poravnanje */
+}
